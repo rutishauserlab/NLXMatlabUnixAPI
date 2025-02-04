@@ -12,6 +12,8 @@ Same for Mac OS X (but "Xcode" needs to be installed,by default Mac OS X does no
 
 This archive also contains Matlab demo-files on how to use the functions.
 
+**This package has been in active use since 2004 by many users around the world. It used to be available for download at www.rutishauserlab.org/nlxtools, and was moved to this github page in Feb'25.**
+
 # Compilation
 This is only necessary if the pre-compiled binaries dont work on your system.
 
@@ -123,5 +125,4 @@ Replaced StdString.h with CStdString.h (see https://github.com/xparq/CStdString)
 February 2025, Ueli Rutishauser, Cedars-Sinai Medical Center / Caltech. 
 Released Apple Silicon Binaries, which were in Beta since Feb 2024 and confirmed to work by a number of users.
 
-The latest version of this package can be downloaded for free from www.rutishauserlab.org/nlxtools
 
