@@ -87,7 +87,7 @@ guarantee you any support or timely responses.
 # Change log
 
 First release:
-June 2004, Ueli Rutishauser, California Institute of Technology, Computation and Neural Systems, urut@caltech.edu
+June 2004, Ueli Rutishauser, California Institute of Technology, Computation and Neural Systems.
 
 Second release:
 October 2008, Updated to 64-Bit and newer g++ compiler (also for 32-bit version). Ueli Rutishauser, Caltech.
@@ -96,31 +96,31 @@ third release:
 August 2009, minor update for mac os x 64-bit. Also, modified StdString.h to make it compile with the latest g++ without warnings (this->).
 
 fourth release:
-August 2010, Ueli Rutishauser, Max Planck Institute for Brain Research. urut@brain.mpg.de
+August 2010, Ueli Rutishauser, Max Planck Institute for Brain Research. 
 Added the VT (video) file type and optimized the compilation scripts.
 
 5th release:
-April 2011, Ueli Rutishauser, Max Planck Institute for Brain Research. urut@brain.mpg.de
+April 2011, Ueli Rutishauser, Max Planck Institute for Brain Research.
 Added Spike (Single electrodes, tetrodes, stereotrodes) file type and updated compilation scripts/tested platforms.
 
 6th release:
-December 2011, Ueli Rutishauser, Max Planck Institute for Brain Research. urut@brain.mpg.de.
+December 2011, Ueli Rutishauser, Max Planck Institute for Brain Research. 
 Added functions to write to Nlx CSC, SE and TT files (new).
 
 7th release:
-December 2015, Ueli Rutishauser, Cedars-Sinai Medical Center / Caltech. urut@caltech.edu
+December 2015, Ueli Rutishauser, Cedars-Sinai Medical Center / Caltech. 
 Added functions to write to EV (new).
 Recompiled with Matlab version 2012b for Mac and 2014b for Linux; Recompiled with more modern libc.
 Only 64-bit binaries are provided starting with this release.
 This release contains modifications to allow reading CSC files >2GBs kindly provided Katia Lehongre (ICM Institute, Paris).
 
 8th release:
-February 2024, Ueli Rutishauser, Cedars-Sinai Medical Center / Caltech. urut@caltech.edu
+February 2024, Ueli Rutishauser, Cedars-Sinai Medical Center / Caltech. 
 Added ability to compile for Silicon Mac, with Matlab 2023b
 Replaced StdString.h with CStdString.h (see https://github.com/xparq/CStdString) to make it compile with newer versions
 
 9th release:
-February 2025, Ueli Rutishauser, Cedars-Sinai Medical Center / Caltech. urut@caltech.edu
+February 2025, Ueli Rutishauser, Cedars-Sinai Medical Center / Caltech. 
 Released Apple Silicon Binaries, which were in Beta since Feb 2024 and confirmed to work by a number of users.
 
 The latest version of this package can be downloaded for free from www.rutishauserlab.org/nlxtools
