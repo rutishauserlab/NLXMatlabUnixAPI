@@ -1,5 +1,4 @@
-Introduction
-============
+# Introduction
 
 This directory contains Matlab (mex) functions to read and write Neuralynx files from Unix versions of Matlab.
 This Linux/Mac port was developed by Ueli Rutishauser and is based on the original windows/MFC version that was developed and provided by Neuralynx Inc by courtesy.
@@ -13,8 +12,7 @@ Same for Mac OS X (but "Xcode" needs to be installed,by default Mac OS X does no
 
 This archive also contains Matlab demo-files on how to use the functions.
 
-Compilation
-===========
+# Compilation
 This is only necessary if the pre-compiled binaries dont work on your system.
 
 Adjust compile.sh so that it uses your Matlab and compiles for the correct platform.
@@ -29,9 +27,11 @@ Note: The version of Matlab installed determines whether you need the 32/64 vers
 If you're not sure whether your matlab is 32 or 64 bits, type 'computer' on the matlab prompt.
 This will output a string such as GLNX86 (32-bit linux), GLNXA64 (64-bit linux) or MACI64 (64-bit mac).
 
-Testing (for Dec2015 release)
-=============================
+# Testing 
 
+For 2024 release: 64-bit Mac OS X (Silicon): Matlab 2023b with Xcode
+
+For Dec2015 release:
 The 64-bit linux version was tested on:
 Redhat Linux EL6, g++ 4.4.7 and Matlab 2015b
 and
@@ -40,16 +40,7 @@ Ubuntu Linux 12.04, g++4.6.3 and Matlab 2014b
 The 64-bit Mac OS X version was tested on:
 Mac OS X 10.8, g++ 4.2.1 and Matlab 2012b
 
-The pre-compiled binaries provided in the archive are these versions and should work as-is on at least these platforms, but likely many more.
-If not, re-compilation is necessary, which is simple (see below).
-
-Testing (for 2024 release)
-==========================
-
-64-bit Mac OS X (Silicon): Matlab 2023b with Xcode
-
-Setup and demo files
-====================
+# Setup and demo files
 The pre-compiled binaries are in the subdirectory binaries. Re-compilation will also create the files in this directory.
 
 compile.sh generates files such as Nlx2MatCSC_v3.mexglx or Nlx2MatEV_v3.mexglx (mexglx is 32-bit PC, as an example). 
@@ -76,15 +67,13 @@ events = getRawTTLs('Events.Nev');
 reading csc data:
 [timestamps,dataSamples] = getRawCSCData( 'a8.ncs', 198, 200 );
 
-
 !! Note: If the mex function gives errors such as "Corrupt file - incomplete record encountered" it means you compiled
 the wrong version or used the wrong compatibility.h (wrong architecture, as when using the 32bit version for 64). 
 DO NOT ignore this warning - the data returnend is corrupt!
 
 !! The same error will also appear if you overwrite a file without deleting it first.
 
-Acknowledgments and note of caution
-===================================
+# Acknowledgments and note of caution
 
 This is an inofficial port of the original Neuralynx source code to Linux/MacOSX and is not supported in any way by Neuralynx Inc.
 The original source code is owned by and copyright by Neuralynx Inc. 
@@ -95,8 +84,7 @@ guarantee in any way that they will not corrupt or modify your data. Please test
 Contact the author (below) for comments/questions regarding this version. While I will do my best to answer queries, I can not
 guarantee you any support or timely responses.
 
-Change log
-==========
+# Change log
 
 First release:
 June 2004, Ueli Rutishauser, California Institute of Technology, Computation and Neural Systems, urut@caltech.edu
@@ -135,6 +123,5 @@ Replaced StdString.h with CStdString.h (see https://github.com/xparq/CStdString)
 February 2025, Ueli Rutishauser, Cedars-Sinai Medical Center / Caltech. urut@caltech.edu
 Released Apple Silicon Binaries, which were in Beta since Feb 2024 and confirmed to work by a number of users.
 
-====
 The latest version of this package can be downloaded for free from www.rutishauserlab.org/nlxtools
 
