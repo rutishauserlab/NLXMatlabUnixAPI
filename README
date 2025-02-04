@@ -134,6 +134,10 @@ February 2024, Ueli Rutishauser, Cedars-Sinai Medical Center / Caltech. urut@cal
 Added ability to compile for Silicon Mac, with Matlab 2023b
 Replaced StdString.h with CStdString.h (see https://github.com/xparq/CStdString) to make it compile with newer versions
 
+9th release:
+February 2025, Ueli Rutishauser, Cedars-Sinai Medical Center / Caltech. urut@caltech.edu
+Released Apple Silicon Binaries, which were in Beta since Feb 2024 and confirmed to work by a number of users.
+
 ====
 The latest version of this package can be downloaded for free from www.rutishauserlab.org/nlxtools
 
