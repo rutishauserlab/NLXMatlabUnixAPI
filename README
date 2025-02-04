@@ -1,20 +1,17 @@
 Introduction
 ============
 
-This directory contains a port of the neuralynx file readers (CSC, EV, VT, SE and TT files) and a partial
-port of the file writers (CSC, SE, TT, EV). This Linux/Mac port is based on the original windows/MFC version, 
-developed and provided by Neuralynx Inc by courtesy.
+This directory contains Matlab (mex) functions to read and write Neuralynx files from Unix versions of Matlab.
+This Linux/Mac port was developed by Ueli Rutishauser and is based on the original windows/MFC version that was developed and provided by Neuralynx Inc by courtesy.
 
 There are two versions: One for 32 Bit and one for 64 Bit. Scripts are provided for Linux and Mac OS X, 
 adaptation to other operating systems (with gcc) should, however, be fairly easily.
 
-This archive also contains compiled binaries for intel Linux 64 Bit, intel Mac OS X 64 Bit, Silicon Mac OS 64 Bit. If these files work
-for you you can use them. However, if they dont (due to different libraries, Matlab versions etc) you need to recompile
-them yourself. In Linux,this only requires standard compilers. Same for Mac OS X (but "Xcode" needs to be installed,by default
-Mac OS X does not install the compiler). Xcode can be downloaded from apple.com for free.
+The pre-ompiled binaries provided ('binaries' directory) are for intel Linux 64 Bit, intel Mac OS X 64 Bit, and Silicon Mac OS 64 Bit. For most, these work out of the box and
+re-compilation is not needed. If they dont (due to different libraries, Matlab versions etc) you need to recompile them yourself. In Linux,this only requires standard compilers. 
+Same for Mac OS X (but "Xcode" needs to be installed,by default Mac OS X does not install the compiler). 
 
 This archive also contains Matlab demo-files on how to use the functions.
-
 
 Compilation
 ===========
